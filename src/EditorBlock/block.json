@@ -1,0 +1,15 @@
+{
+  "name": "werbelinie/rh-editor-block-starter",
+  "category": "text",
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "className": false,
+    "html": false,
+    "lightBlockWrapper": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "werbelinie/rh-editor-block-starter",
+  "version": "1.0.0",
+  "description": "Describe this block.",
+  "type": "wordpress-plugin",
+  "license": "CC BY-NC-ND 4.0",
+  "authors": [
+    {
+      "name": "Werbelinie AG - Raphael Hüni",
+      "email": "hueni@werbelinie.ch"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "RHEditorBlockStarter\\": "src/"
+    }
+  }
+}
