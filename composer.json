@@ -1,13 +1,13 @@
 {
-  "name": "werbelinie/rh-editor-block-starter",
+  "name": "rh/rh-editor-block-starter",
   "version": "1.0.0",
   "description": "Describe this block.",
   "type": "wordpress-plugin",
-  "license": "CC BY-NC-ND 4.0",
+  "license": "GPL-2.0-or-later",
   "authors": [
     {
-      "name": "Werbelinie AG - Raphael Hüni",
-      "email": "hueni@werbelinie.ch"
+      "name": "Raphael Hüni",
+      "email": "rafhun@gmail.ch"
     }
   ],
   "minimum-stability": "stable",

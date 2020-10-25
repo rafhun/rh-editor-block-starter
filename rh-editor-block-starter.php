@@ -8,18 +8,18 @@ namespace RHEditorBlockStarter;
  * PHP version 7
  *
  * @package RHEditorBlockStarter
- * @author Werbelinie AG <support@werbelinie.ch>
+ * @author Raphael Hüni <rafhun@gmail.com>
  * @version 1.0.0
  * @since 1.0.0
  *
  * Plugin Name: RH Editor Block Starter
- * Plugin URI: https://werbelinie.ch
+ * Plugin URI: https://github.com/rafhun/rh-editor-block-starter
  * Description: Describe this block.
  * Version: 1.0.0
- * Author: Werbelinie AG
- * Author URI: https://werbelinie.ch
- * License: GPL-2.0+
- * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ * Author: Raphael Hüni
+ * Author URI: https://github.com/rafhun/
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: rh-editor-block-starter
  * Domain Path: /languages
  */

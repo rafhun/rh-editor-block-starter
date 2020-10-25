@@ -1,5 +1,5 @@
 === RH Editor Block Starter ===
-Contributors: Werbelinie AG
+Contributors: rafhun
 Tags:
 Requires at least: 5.5
 Testet up to: 5.5.1

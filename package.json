@@ -22,8 +22,8 @@
     "build/index.js"
   ],
   "keywords": [],
-  "author": "Werbelinie AG",
-  "license": "ISC",
+  "author": "rafhun",
+  "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@wordpress/scripts": "^12.1.1",
     "tag-dist-files": "^0.1.6"

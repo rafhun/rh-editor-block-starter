@@ -89,7 +89,7 @@ class Plugin
         );
 
         // Delete this if you have a server-side rendered block. It is registered in the Render class.
-        register_block_type('werbelinie/rh-editor-block-starter', [
+        register_block_type('rafhun/rh-editor-block-starter', [
             'editor_script' => 'rh-editor-block-starter-editor-js',
             'editor_style' => 'rh-editor-block-starter-editor-css',
             'style' => 'rh-editor-block-starter-css',
