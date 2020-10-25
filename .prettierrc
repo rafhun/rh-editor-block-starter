@@ -1,4 +1,8 @@
 {
   "arrowParens": "avoid",
-  "semi": false
+  "semi": false,
+  "phpVersion": "7.4",
+  "singleQuote": false,
+  "trailingCommaPHP": true,
+  "braceStyle": "psr-2"
 }

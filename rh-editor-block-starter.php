@@ -1,5 +1,4 @@
 <?php
-namespace RHEditorBlockStarter;
 
 /**
  * The main plugin file where we load relevant scripts and enqueue
@@ -23,11 +22,14 @@ namespace RHEditorBlockStarter;
  * Text Domain: rh-editor-block-starter
  * Domain Path: /languages
  */
+
+namespace RHEditorBlockStarter;
+
 __('RH Editor Block Starter', 'rh-editor-block-starter');
 
 // Exit if accessed directly.
 if (!defined('ABSPATH')) {
-    exit;
+    exit();
 }
 
 /** Autoloader

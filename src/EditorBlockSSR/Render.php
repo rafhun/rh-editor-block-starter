@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Use this file if you need server-side rendering for your block.
  *
@@ -7,11 +8,6 @@
  * @since 1.0.0
  */
 namespace RHEditorBlockStarter\EditorBlockSSR;
-
-// Exit if accessed directly.
-if (!defined('ABSPATH')) {
-    exit;
-}
 
 /**
  * Server side rendering of an editor block is set up in this class.
@@ -45,15 +41,12 @@ class Render
      */
     public function registerBlock()
     {
-        register_block_type_from_metadata(
-            __DIR__,
-            [
-                'render_callback' => [$this, 'renderBlock'],
-                'editor_script' => 'rh-editor-block-starter-editor-js',
-                'editor_style' => 'rh-editor-block-starter-editor-css',
-                'style' => 'rh-editor-block-starter-css',
-            ]
-        );
+        register_block_type_from_metadata(__DIR__, [
+            'render_callback' => [$this, 'renderBlock'],
+            'editor_script' => 'rh-editor-block-starter-editor-js',
+            'editor_style' => 'rh-editor-block-starter-editor-css',
+            'style' => 'rh-editor-block-starter-css',
+        ]);
     }
 
     /**

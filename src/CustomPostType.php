@@ -1,4 +1,5 @@
 <?php
+
 namespace RHEditorBlockStarter;
 
 /**
@@ -50,7 +51,7 @@ class CustomPostType
 
         register_post_type(
             'post-type-id',
-            [] // Args
+            [], // Args
         );
     }
 }

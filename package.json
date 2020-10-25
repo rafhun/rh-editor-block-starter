@@ -25,6 +25,7 @@
     "lodash-es": "^4.17.15"
   },
   "devDependencies": {
+    "@prettier/plugin-php": "^0.15.1",
     "@wordpress/scripts": "^12.1.1",
     "prettier": "^2.1.2",
     "tag-dist-files": "^0.1.6"
@@ -38,6 +39,7 @@
     "type": "git",
     "url": "git+https://github.com/rafhun/rh-editor-block-starter.git"
   },
+  "homepage": "https://rafhun.github.io/blog/wordpress-custom-block-plugin/",
   "files": [
     "build/index.asset.php",
     "build/index.js"
