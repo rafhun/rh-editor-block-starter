@@ -4,6 +4,7 @@
   "description": "Describe this block.",
   "type": "wordpress-plugin",
   "license": "GPL-2.0-or-later",
+  "homepage": "https://rafhun.github.io/blog/wordpress-custom-block-plugin/",
   "authors": [
     {
       "name": "Raphael Hüni",

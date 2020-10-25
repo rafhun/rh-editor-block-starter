@@ -7,3 +7,5 @@ There is a template for a standard block as well as for a dynamic (server side r
 The repo adheres to current WordPress standards and as such specifies the package versions that ship with core v5.5. The most usual packages are already in `package.json`. Add more if you need additional ones, remove the ones you do not need.
 
 PHP follows `psr-4` rules, as such this plugin should be installed using composer. If you want to achieve broader compatibility include the `vendor` (or your custom composer folder) in the release commits.
+
+A more detailed explanation of the plugin is available [in this blogpost](https://rafhun.github.io/blog/wordpress-custom-block-plugin/).
