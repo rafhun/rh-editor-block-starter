@@ -4,7 +4,7 @@ namespace RHEditorBlockStarter;
 class Plugin
 {
     /**
-     * The pluginFile (__FILE__ constant of the main plugin file) of the plugin.
+     * The location (__FILE__) constant of the main plugin file) of the plugin.
      *
      * @var string
      */
@@ -96,9 +96,9 @@ class Plugin
         ]);
 
         wp_set_script_translations(
-            'rh-editor-block-starter-editor-js',
-            'rh-editor-block-starter',
-            plugin_dir_path($this->pluginFile) . 'languages'
+            'rh-editor-block-starter-editor-js', // Script Handle
+            'rh-editor-block-starter', // Text Domain
+            plugin_dir_path($this->pluginFile) . 'languages' // Path to json translation files
         );
     }
 }
