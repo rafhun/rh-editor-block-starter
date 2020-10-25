@@ -1,32 +1,11 @@
 {
   "name": "rh-editor-block-starter",
-  "version": "1.0.0",
+  "private": true,
   "description": "Describe this block.",
-  "scripts": {
-    "build": "wp-scripts build",
-    "check-engines": "wp-scripts check-engines",
-    "check-licenses": "wp-scripts check-licenses",
-    "lint:css": "wp-scripts lint-style",
-    "lint:js": "wp-scripts lint-js",
-    "lint:pkg-json": "wp-scripts lint-pkg-json",
-    "start": "wp-scripts start",
-    "test:e2e": "wp-scripts test-e2e",
-    "test:unit": "wp-scripts test-unit-js",
-    "prepareDist": "tag-dist-files",
-    "makepot": "wp i18n make-pot . languages/rh-editor-block-starter.pot",
-    "makejson": "wp i18n make-json --no-purge languages",
-    "release": "git push && yarn build && yarn prepareDist"
-  },
-  "files": [
-    "build/index.asset.php",
-    "build/index.js"
-  ],
-  "keywords": [],
-  "author": "rafhun",
-  "license": "GPL-2.0-or-later",
-  "devDependencies": {
-    "@wordpress/scripts": "^12.1.1",
-    "tag-dist-files": "^0.1.6"
+  "version": "1.0.0",
+  "author": "rafhun <rafhun@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/rafhun/rh-editor-block-starter/issues"
   },
   "dependencies": {
     "@wordpress/blob": "^2.9.0",
@@ -44,5 +23,39 @@
     "@wordpress/url": "^2.17.0",
     "classnames": "^2.2.6",
     "lodash-es": "^4.17.15"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^12.1.1",
+    "prettier": "^2.1.2",
+    "tag-dist-files": "^0.1.6"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "license": "GPL-2.0-or-later",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafhun/rh-editor-block-starter.git"
+  },
+  "files": [
+    "build/index.asset.php",
+    "build/index.js"
+  ],
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js",
+    "prepareDist": "tag-dist-files",
+    "makepot": "wp i18n make-pot . languages/rh-editor-block-starter.pot",
+    "makejson": "wp i18n make-json --no-purge languages",
+    "release": "git push && yarn build && yarn prepareDist",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   }
 }
