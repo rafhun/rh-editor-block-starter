@@ -12,6 +12,10 @@
     }
   ],
   "minimum-stability": "stable",
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.4.2",
+    "roave/security-advisories": "dev-master"
+  },
   "require": {},
   "autoload": {
     "psr-4": {
