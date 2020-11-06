@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Roots">
-  <description>Roots Coding Standards</description>
+<ruleset name="RH">
+  <description>RH Coding Standards</description>
 
   <!-- Scan these files -->
   <file>src</file>
