@@ -63,6 +63,6 @@
     "makepot": "wp i18n make-pot . languages/rh-editor-block-starter.pot",
     "makejson": "wp i18n make-json --no-purge languages",
     "release": "git push && yarn build && yarn prepareDist",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,php,css}\""
   }
 }
