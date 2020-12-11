@@ -2,7 +2,7 @@
 
 /** WordPress dependencies */
 import { __ } from "@wordpress/i18n"
-import { __experimentalBlock as Block } from "@wordpress/block-editor"
+import { useBlockProps } from "@wordpress/block-editor"
 
 /** Internal dependencies */
 
@@ -17,9 +17,9 @@ function RHEditorBlockStarterEdit({ attributes, setAttributes }) {
 
   /* Return */
   return (
-    <Block.div>
+    <div {...useBlockProps()}>
       <p>Editor contents.</p>
-    </Block.div>
+    </div>
   )
 }
 
