@@ -1,4 +1,5 @@
 {
+  "apiVersion": 2,
   "name": "rafhun/rh-editor-block-starter",
   "category": "text",
   "attributes": {
@@ -9,7 +10,6 @@
   "supports": {
     "align": ["wide", "full"],
     "className": false,
-    "html": false,
-    "lightBlockWrapper": true
+    "html": false
   }
 }
