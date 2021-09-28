@@ -1,7 +1,11 @@
 {
   "apiVersion": 2,
   "name": "rafhun/rh-editor-block-starter",
+  "title": "RH Editor Block Starter",
   "category": "widgets",
+  "description": "Describe this block.",
+  "keywords": ["keyword"],
+  "textdomain": "rh-editor-block-starter",
   "attributes": {
     "text": {
       "type": "string"
@@ -11,5 +15,8 @@
     "align": ["wide", "full"],
     "className": false,
     "html": false
-  }
+  },
+  "editorScript": "rh-editor-block-starter-editor-js",
+  "editorStyle": "rh-editor-block-starter-editor-css",
+  "style": "rh-editor-block-starter-css"
 }

@@ -1,7 +1,6 @@
 /** External dependencies */
 
 /** WordPress dependencies */
-import { __ } from "@wordpress/i18n"
 // import {paragraph as icon} from '@wordpress/icons';
 
 /** Internal dependencies */
@@ -16,19 +15,16 @@ const { name } = metadata
 export { metadata, name }
 
 export const settings = {
-  title: __("RH Editor Block Starter", "rh-editor-block-starter"),
-  description: __("Describe this block.", "rh-editor-block-starter"),
   icon: {
     background: "#000",
     foreground: "#fff",
     src: icon,
   },
-  keywords: [__("keyword", "rh-editor-block-starter")],
   example: {},
+  transforms,
   edit,
   save,
   // deprecated,
-  transforms,
 }
 
 export const removesBlocks = []

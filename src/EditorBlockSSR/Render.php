@@ -42,10 +42,7 @@ class Render
     public function registerBlock()
     {
         register_block_type_from_metadata(__DIR__, [
-            'render_callback' => [$this, 'renderBlock'],
-            'editor_script' => 'rh-editor-block-starter-editor-js',
-            'editor_style' => 'rh-editor-block-starter-editor-css',
-            'style' => 'rh-editor-block-starter-css',
+            "render_callback" => [$this, "renderBlock"],
         ]);
     }
 
