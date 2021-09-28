@@ -34,7 +34,7 @@ class CustomPostType
     {
         $self = new self();
         // Register the custom post type.
-        add_action('wp_loaded', [$self, 'registerPostType'], 0);
+        add_action("wp_loaded", [$self, "registerPostType"], 0);
     }
 
     /**
@@ -50,7 +50,7 @@ class CustomPostType
         $labels = [];
 
         register_post_type(
-            'post-type-id',
+            "post-type-id",
             [], // Args
         );
     }

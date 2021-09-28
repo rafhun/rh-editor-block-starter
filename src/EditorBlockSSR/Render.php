@@ -29,7 +29,7 @@ class Render
     public static function init()
     {
         $self = new self();
-        add_action('wp_loaded', [$self, 'registerBlock']);
+        add_action("wp_loaded", [$self, "registerBlock"]);
     }
 
     /**
@@ -55,7 +55,7 @@ class Render
      */
     public function renderBlock($attributes)
     {
-        $blockContent = '';
+        $blockContent = "";
 
         return $blockContent;
     }

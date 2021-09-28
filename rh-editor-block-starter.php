@@ -25,10 +25,10 @@
 
 namespace RHEditorBlockStarter;
 
-__('RH Editor Block Starter', 'rh-editor-block-starter');
+__("RH Editor Block Starter", "rh-editor-block-starter");
 
 // Exit if accessed directly.
-if (!defined('ABSPATH')) {
+if (!defined("ABSPATH")) {
     exit();
 }
 
@@ -36,8 +36,8 @@ if (!defined('ABSPATH')) {
  * Only required if file actually exists. If not autoload is managed on a
  * higher hierarchy.
  * */
-if (file_exists(__DIR__ . '/vendor/autoload.php')) {
-    require __DIR__ . '/vendor/autoload.php';
+if (file_exists(__DIR__ . "/vendor/autoload.php")) {
+    require __DIR__ . "/vendor/autoload.php";
 }
 
 // Initialize the plugin
