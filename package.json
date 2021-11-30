@@ -27,9 +27,9 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "@prettier/plugin-php": "^0.17.5",
+    "@prettier/plugin-php": "^0.17.6",
     "@wordpress/scripts": "^16.1.5",
-    "prettier": "^2.4.1",
+    "prettier": "^2.5.0",
     "tag-dist-files": "^0.1.6"
   },
   "keywords": [
